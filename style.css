@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .orange{
     color: orange;
@@ -9,10 +10,37 @@ h1{
 }
 .flex-container{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width{
     width:50% ;
-    padding: left 5%;
-    padding-right: 5%;
+    margin-left: 7%;
+  
+}
+.half-width img{
+
+   width:58%
+    
+}
+
+
+p{
     text-align: justify;
+    padding-bottom: 10px;
+}
+.button-link{
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 30px;
+}
+.About-Me-Banner{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h2{
+    font-size: 40px;
+    color: gray;
 }
