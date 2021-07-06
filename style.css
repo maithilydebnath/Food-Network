@@ -13,7 +13,7 @@ h1{
     display: flex;
     margin-bottom: 80px;
 }
-.half-width{
+.half-width-order{
     width:50% ;
     margin-left: 7%;
     padding-left: 20px;
@@ -21,11 +21,29 @@ h1{
     padding-top: 7%;
   
 }
-.half-width img{
-   width:68%;
+.half-width-order img{
+   width:100%;
+
    
 }
-
+.half-width-AboutMe{
+    width:50% ;
+    margin-left: 7%;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-top: 7%;
+  
+}
+.half-width-AboutMe img{
+   width:55%;
+  
+}
+.location{
+    width: 100%;
+    height: 450px;
+    border : 0;
+    
+}
 
 p{
     text-align: justify;
@@ -105,13 +123,17 @@ h6{
         margin-right: 2%;
         padding-left: 20px;
         padding-right: 20px;
-        text-align:justify;     
+        text-align:justify; 
+        padding-top: 10px;
+        padding-bottom: 100px;    
 }
 .three-part-services img{
+  
     width: 110%;
 
-
+ 
 }
+
 .text-head{
     font-size: 20px;
 }
