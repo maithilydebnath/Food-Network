@@ -22,8 +22,8 @@ h1{
   
 }
 .half-width img{
-   width:78%
-    
+   width:68%;
+   
 }
 
 
@@ -43,7 +43,8 @@ p{
 .About-Me-Banner{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
+
 }
 h2{
     font-size: 40px;
@@ -83,4 +84,19 @@ h3{
 h4{
     font-size: 30px;
     font-weight: 900px;
+}
+h6{
+    font-size: 25px;
+    text-align: center;
+    color:slategray;
+}
+footer{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: lightblue; 
+
+}
+footer p{   
+    text-align: center;
 }
