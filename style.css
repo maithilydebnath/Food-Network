@@ -74,6 +74,9 @@ h3{
     font-size: 35px;
     text-align: center;
     color:slategray;
+    padding-top: 30px;
+
+    
 }
 #recipie-text-align{
     text-align: center;
@@ -84,11 +87,33 @@ h3{
 h4{
     font-size: 30px;
     font-weight: 900px;
+    padding-bottom: 0;
 }
 h6{
     font-size: 25px;
     text-align: center;
     color:slategray;
+}
+.banner-services{
+    background-image: url(images/shapes/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.three-part-services{
+        width:35% ;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align:justify;     
+}
+.three-part-services img{
+    width: 110%;
+
+
+}
+.text-head{
+    font-size: 20px;
 }
 footer{
     padding-top: 15px;
